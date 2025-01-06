@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="carousel">
+        <button class="carousel__button carousel__button-left">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                    <img class="carousel__image" src="https://images.pexels.com/photos/27230218/pexels-photo-27230218/free-photo-of-a-view-of-the-ocean-and-a-mountain-in-the-distance.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image 1">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laboriosam blanditiis ut repellat delectus id soluta praesentium sint hic cum, sit voluptas at quisquam asperiores, eveniet incidunt? Fuga, doloremque eligendi.
+                    </div>
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="https://images.pexels.com/photos/28133548/pexels-photo-28133548/free-photo-of-black-and-white-photo-of-three-rock-formations-in-the-ocean.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image 1">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laboriosam blanditiis ut repellat delectus id soluta praesentium sint hic cum, sit voluptas at quisquam asperiores, eveniet incidunt? Fuga, doloremque eligendi.
+                    </div>
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="https://images.pexels.com/photos/29708154/pexels-photo-29708154/free-photo-of-geometric-skylight-architectural-design.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image 1">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laboriosam blanditiis ut repellat delectus id soluta praesentium sint hic cum, sit voluptas at quisquam asperiores, eveniet incidunt? Fuga, doloremque eligendi.
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button class="carousel__button carousel__button-right">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </button>
+        <div class="carousel__nav">
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+        </div>
+    </div>
+    <script src="carousel.js"></script>
+</body>
+</html>
